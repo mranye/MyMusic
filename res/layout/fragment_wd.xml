@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/bd_lv_item_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#57DFFE"
+        android:gravity="center_horizontal"
+        android:text="个人中心"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.tarena.music.view.CircleImageView
+        android:id="@+id/circleImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/a1i" />
+
+    <TextView
+        android:id="@+id/wd_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击登录"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A2BEBD"
+        android:text="昵称: 二哈" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_tv_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A2BEBD"
+        android:text="性别:雄性" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A2BEBD"
+        android:text="收藏" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A2BEBD"
+        android:text="下载" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于: 音乐播放器1.0" />
+
+</LinearLayout>

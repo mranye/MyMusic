@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004E98"
+    tools:context=".MainActivity" >
+  <!-- 欢迎界面左右滑动 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/welcome_vp_lead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/weclome_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="23dp"
+        android:background="#ffccaacc"
+        android:text="3秒倒计时" />
+
+    <ImageView
+        android:id="@+id/welcome_iv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/welcome_iv_0"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baisediandian" />
+
+    <ImageView
+        android:id="@+id/welcome_iv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/welcome_iv_1"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/welcome_iv_1"
+        android:src="@drawable/baisediandian" />
+
+    <ImageView
+        android:id="@+id/welcome_iv_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/welcome_iv_1"
+        android:src="@drawable/zhusediaodiandian" />
+    
+</RelativeLayout>

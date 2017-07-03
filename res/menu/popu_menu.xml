@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/ktv"
+          android:title="KTV歌曲"/>
+    <item android:id="@+id/jdlg"
+          android:title="经典老歌"/>
+    <item android:id="@+id/jsgq"
+          android:title="爵士歌曲"/>
+    <item android:id="@+id/lxgq"
+          android:title="流行歌曲"/>
+    <item android:id="@+id/omjq"
+          android:title="欧美金曲"/>
+    <item android:id="@+id/qgdc"
+          android:title="情歌对唱"/>
+    <item android:id="@+id/rgb"
+          android:title="热歌榜"/>
+    <item android:id="@+id/wlgq"
+          android:title="网络歌曲"/>
+    <item android:id="@+id/xgb"
+          android:title="新歌榜"/>
+    <item android:id="@+id/ygb"
+          android:title="摇滚榜"/>
+    <item android:id="@+id/ysjq"
+          android:title="影视金曲"/>
+
+</menu>
